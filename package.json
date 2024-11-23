@@ -1,0 +1,33 @@
+{
+  "name": "crud-notes-app",
+  "version": "1.0.0",
+  "description": "A simple Node Js note app .Highlights CRUD operations",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://O-darel/crud-notes-app.git"
+  },
+  "keywords": [
+    "NodeJs",
+    "Crud",
+    "Notes App",
+    "Express"
+  ],
+  "author": "Darel Oballa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/O-darel/crud-notes-app/issues"
+  },
+  "homepage": "https://github.com/O-darel/crud-notes-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.11.0",
+    "nodemon": "^3.1.7"
+  }
+}
